@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "epitaph",
+  "version": "${version}",
+  "name": "Epitaph",
+  "description": "Client-side visual customization and Screenmates.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.epitaph.EpitaphClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
